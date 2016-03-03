@@ -4,10 +4,14 @@ var templateControllers = angular.module('templateControllers', [
   'ngRoute'
 ]);
 
-templateControllers.controller('HomeController', [function () {
-  // Controller method for Home
+templateControllers.controller('HomeController', ['$scope', '$route',
+  function ($scope, $route) {
+    // Controller method for Home
+    $scope.template = $route.current.templateUrl;
 }]);
 
-templateControllers.controller('AboutController', [function () {
-  // Controller method for About
+templateControllers.controller('AboutController', ['$scope', '$route',
+  function ($scope, $route) {
+    // Controller method for About
+    $scope.template = $route.current.templateUrl;
 }]);
