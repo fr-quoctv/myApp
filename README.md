@@ -18,7 +18,8 @@ To get you started you can simply clone the `app-template` repository and instal
 - Node.js and tools (`npm`, `bower`,...)
 
 ### Clone app-template
-Clone the `app-template` repository using [git][git]:
+
+Clone the `app-template` repository using `git`:
 
 ```bash
 git clone https://github.com/at-hungbcp/app-template.git
@@ -158,6 +159,7 @@ This will find the latest versions that match the version ranges specified in th
 While angular is client-side-only technology and it's possible to create angular webapps that don't require a backend server at all, we recommend serving the project files using a local webserver during development to avoid issues with security restrictions (sandbox) in browsers. The sandbox implementation varies between browsers, but quite often prevents things like cookies, xhr, etc to function properly when an html page is opened via `file://` scheme instead of `http://`.
 
 ### Running the App during Development
+
 The `app-template` project comes preconfigured with a local development webserver.  It is a Node.js tool called [http-server](https://www.npmjs.com/package/http-server). You can start this webserver with `npm start` but you may choose to install the tool globally:
 
 ```bash
@@ -181,13 +183,15 @@ Angular apps are really just a bunch of static html, css and js files that just 
 If your Angular app is talking to the backend server via xhr or other means, you need to figure out what is the best way to host the static files to comply with the same origin policy if applicable. Usually this is done by hosting the files by the backend server or through reverse-proxying the backend server(s) and webserver(s).
 
 ## Contact
+
 For more information on AngularJS please check out [http://angularjs.org/](http://angularjs.org/)
 
-`git`: http://git-scm.com/
-`bower`: http://bower.io
-`npm`: https://www.npmjs.org/
-`node`: http://nodejs.org
-`protractor`: https://github.com/angular/protractor
-`jasmine`: http://jasmine.github.io
-`karma`: http://karma-runner.github.io
-`http-server`: https://github.com/nodeapps/http-server
+- `git`: http://git-scm.com/
+- `bower`: http://bower.io
+- `npm`: https://www.npmjs.org/
+- `node`: http://nodejs.org
+- `protractor`: https://github.com/angular/protractor
+- `jasmine`: http://jasmine.github.io
+- `karma`: http://karma-runner.github.io
+- `http-server`: https://github.com/nodeapps/http-server
+
