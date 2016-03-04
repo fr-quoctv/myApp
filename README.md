@@ -22,7 +22,7 @@ To get you started you can simply clone the `app-template` repository and instal
 Clone the `app-template` repository using `git`:
 
 ```bash
-git clone https://github.com/at-hungbcp/app-template.git
+git clone https://github.com/at-hungbcp/angular-app-template.git
 cd app-template
 ```
 
@@ -54,7 +54,7 @@ We have preconfigured the project with a simple development web server.  The sim
 npm start
 ```
 
-Now browse to the app at `http://localhost:8000/app/index.html`.
+Now browse to the app at `http://localhost:8000/index.html`.
 
 ## Commits / Tutorial Outline
 
