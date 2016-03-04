@@ -56,6 +56,40 @@ npm start
 
 Now browse to the app at `http://localhost:8000/app/index.html`.
 
+## Commits / Tutorial Outline
+
+You can check out any point of the tutorial using
+```bash
+git checkout step-?
+```
+
+To see the changes which between any two lessons use the git diff command.
+```bash
+git diff step-?..step-?
+```
+
+### `step-1`
+
+- Define your app and its properties
+
+### `step-2`
+
+- Create app structure, give it some bones
+
+### `step-3`
+
+- Our app already have bones but lack of flesh, now it's time :smile:
+  - Dependence modules
+  - Routing
+  - Controllers
+  - Views
+
+### `step-4`
+
+- So, the app is alive, but, is it living well? We create test suite...
+  - Unit testing
+  - E2E testing
+
 ## Directory Layout
 
 ```
@@ -65,19 +99,17 @@ app/                           --> all of the source files for the application
     app.css                    --> default stylesheet
   js/                          --> all app business logics
     app.js                     --> main application module
-    view1.js                   --> the controller logic
-    view2.js                   --> the controller logic
+    controllers.js             --> the controller logic
   view/                        --> the view template
-    view1.html                 --> the partial template
-    view2.html                 --> the partial template
+    home.html                  --> the partial template
+    about.html                 --> the partial template
 tests/                         --> all tests
   protractor.conf.js           --> Protractor config file
   karma.conf.js                --> config file for running unit tests with Karma
   e2e/                         --> end-to-end tests
     scenarios.js               --> end-to-end scenarios to be run by Protractor
   unit/                        --> unit tests
-    view1_test.js              --> tests of the controller
-    view2_test.js              --> tests of the controller
+    controllers.js             --> tests of the controller
 ```
 
 ## Testing
@@ -88,8 +120,8 @@ There are two kinds of tests in the `app-template` application: Unit tests and E
 
 The app comes preconfigured with unit tests. These are written in [Jasmine](http://jasmine.github.io/), which we run with the [Karma](https://kama-runner-github.io/). We provide a Karma configuration file to run them.
 
-- The configuration is found at `karma.conf.js`
-- The unit tests are found next to the code they are testing and are named as `..._test.js`.
+- The configuration is found at `test/karma.conf.js`
+- The unit tests are found in `test/unit/controllers.js`
 
 The easiest way to run the unit tests is to use the supplied npm script:
 
@@ -109,8 +141,8 @@ npm run test-single-run
 
 The `app-template` app comes with end-to-end tests, again written in Jasmine. These tests are run with the [Protractor](http://www.protractortest.org/) End-to-End test runner.  It uses native events and has special features for Angular applications.
 
-- The configuration is found at `e2e-tests/protractor.conf.js`
-- The end-to-end tests are found in `e2e-tests/scenarios.js`
+- The configuration is found at `test/protractor.conf.js`
+- The end-to-end tests are found in `test/e2e/scenarios.js`
 
 Protractor simulates interaction with our web app and verifies that the application responds correctly. Therefore, our web server needs to be serving up the application, so that Protractor can interact with it.
 
@@ -169,7 +201,7 @@ npm install -g http-server
 Then you can start your own development web server to serve static files from a folder by running:
 
 ```bash
-http-server -a localhost -p 8000
+http-server ./app -a localhost -p 8000
 ```
 
 Alternatively, you can choose to configure your own webserver, such as Apache or nginx. Just configure your server to serve the files under the `app/` directory.
