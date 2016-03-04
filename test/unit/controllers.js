@@ -1,20 +1,47 @@
 'use strict';
 
-describe('templateControllers module', function () {
+describe('templateApp controllers', function () {
+  beforeEach(module('templateApp'));
 
-  beforeEach(module('templateControllers'));
+  describe('HomeController', function () {
+    var controller, scope, route;
 
-  describe('home controller', function () {
-    it('should ...', inject(function ($controller) {
-      var homeController = $controller('HomeController');
-      expect(homeController).toBeDefined();
+    beforeEach(inject(function ($rootScope, $route, $controller) {
+      scope = $rootScope.$new();
+      route = $route;
+      controller = $controller('HomeController', {
+        $scope: scope
+      });
     }));
+
+    it('should ...', function () {
+      expect(controller).toBeDefined();
+      expect(scope.template).toBe(route.routes['/home'].templateUrl);
+    })
+
+    // it('should create template model which equals to templateUrl', function () {
+    //   expect(scope.template).toBe('view/home.html');
+    // });
   });
 
-  describe('about controller', function () {
-    it('should ...', inject(function ($controller) {
-      var aboutController = $controller('AboutController');
-      expect(aboutController).toBeDefined();
+  describe('AboutController', function () {
+    var controller, scope, route;
+
+    beforeEach(inject(function ($rootScope, $route, $controller) {
+      scope = $rootScope.$new();
+      route = $route;
+      controller = $controller('AboutController', {
+        $scope: scope
+      });
     }));
+
+    it('should ...', function () {
+      expect(controller).toBeDefined();
+      expect(scope.template).toBe(route.routes['/about'].templateUrl);
+    })
+
+    // it('should create template model which equals to templateUrl', function () {
+    //   expect(scope.template).toBe('view/about.html');
+    // });
   });
 });
