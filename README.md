@@ -23,7 +23,7 @@ Clone the `app-template` repository using `git`:
 
 ```bash
 git clone https://github.com/at-hungbcp/angular-app-template.git
-cd app-template
+cd angular-app-template
 ```
 
 ### Install Dependencies
@@ -87,8 +87,8 @@ git diff step-?..step-?
 ### `step-4`
 
 - So, the app is alive, but, is it living well? We create test suite...
-  - Unit testing
-  - E2E testing
+  - Unit Testing
+  - End-to-End Testing
 
 ## Directory Layout
 
@@ -100,16 +100,23 @@ app/                           --> all of the source files for the application
   js/                          --> all app business logics
     app.js                     --> main application module
     controllers.js             --> the controller logic
+    directives.js              --> custom directives
+    filters.js                 --> custom filters
+    services.js                --> custom services
   view/                        --> the view template
-    home.html                  --> the partial template
-    about.html                 --> the partial template
-tests/                         --> all tests
+    home.html                  --> the partial template for home page
+    about.html                 --> the partial template for about page
+
+test/                          --> all tests
   protractor.conf.js           --> Protractor config file
   karma.conf.js                --> config file for running unit tests with Karma
   e2e/                         --> end-to-end tests
     scenarios.js               --> end-to-end scenarios to be run by Protractor
   unit/                        --> unit tests
-    controllers.js             --> tests of the controller
+    controllers.js             --> test cases of the controller
+    directives.js              --> test cases of custom directives
+    filters.js                 --> test cases of custom filters
+    services.js                --> test cases of custom services
 ```
 
 ## Testing
@@ -214,7 +221,7 @@ Angular apps are really just a bunch of static html, css and js files that just 
 
 If your Angular app is talking to the backend server via xhr or other means, you need to figure out what is the best way to host the static files to comply with the same origin policy if applicable. Usually this is done by hosting the files by the backend server or through reverse-proxying the backend server(s) and webserver(s).
 
-## Contact
+## More
 
 For more information on AngularJS please check out [http://angularjs.org/](http://angularjs.org/)
 
@@ -226,4 +233,3 @@ For more information on AngularJS please check out [http://angularjs.org/](http:
 - `jasmine`: http://jasmine.github.io
 - `karma`: http://karma-runner.github.io
 - `http-server`: https://github.com/nodeapps/http-server
-
