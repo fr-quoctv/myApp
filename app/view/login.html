@@ -1,0 +1,12 @@
+<div ng-controller="loginController"  class="jumbotron ">
+   <div class="login"> 
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Log in</h2>
+
+  <form class="login-container">
+    <p><input type="text"  placeholder="username" ng-model="username"></p>
+    <p><input type="password" placeholder="Password" ng-model="password"></p>
+     <button type="submit" ng-disabled="form.$invalid || dataLoading" class="btn btn-danger">Login</button>
+  </form>
+</div>

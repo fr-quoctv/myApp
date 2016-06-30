@@ -1,0 +1,21 @@
+<div ng-controller="htmlController" class="jumbotron">
+<!--  <div class="row">
+<div class="col-md-10"> -->
+  <div class="row">
+    <div class="col-md-14" ng-repeat="session in html | filter:query">
+      <div class="thumbnail">
+         <div class="caption" style="text-align:center"> 
+         	<video width="700" height="600" controls>
+              <source src="{{session.video}}" type="video/mp4">
+          </video> <br>   
+          <a href="#">{{session.nameCss}}</a>
+          <p>
+            <span class="label label-default">{{session.lession}}</span> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+</div>	

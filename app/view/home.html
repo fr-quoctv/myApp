@@ -1,5 +1,28 @@
-<div ng-controller="HomeController" class="jumbotron">
-  <h1>Home view</h1>
-  <code>{{template}}</code>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, aliquid, officiis! Voluptatibus velit quo dignissimos voluptates debitis nam distinctio quis nulla, nisi incidunt, dolor esse dolores ab ullam delectus, quae?</p>
+<div ng-controller="HomeController" class="jumbotron row">
+<div>
+   {{date | date:'dd-MM-yyyy'}}
+</div>
+  <div class="col-md-4">
+    <a href="#/html"  class="thumbnail">
+     <p></p>
+      <img src="image/html.png" alt="" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="#/css" class="thumbnail">
+   
+      <img src="image/css.jpg" alt="" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="http://www.w3schools.com/js/default.asp" target="script"  class="thumbnail">
+   
+      <img src="image/js.png" alt="" style="width:150px;height:150px">
+  <!--     <embed width="420" height="315"
+       src="http://www.youtube.com/v/XGSy3_Czz8k"> -->
+    </a>
+  </div>
+
+
+
 </div>
