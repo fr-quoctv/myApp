@@ -1,0 +1,10 @@
+{  "id": "html 2",
+    "nextpage":"3",
+   "tieude":"Các thẻ html cơ bản",
+
+   "next":"next page 3",
+   "image":"image/part2Html.jpg",
+   "example":"image/htmlExample2.png",
+	"content":"Any document starts with a heading. You can use different sizes for your headings. HTML also has six levels of headings, which use the elements <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>. While displaying any heading, browser adds one line before and one line after that heading.",
+	"loiket":"However, not all browsers and HTML editors are fully compliant with the HTML syntax framework and may do unpredictable things under some syntax conditions. Defective handling of comments only affects about 5% of all browsers and HTML editors in use (IE6 accounting for most of this high percentage). Even then only certain versions are affected by comment mishandling issues"
+}

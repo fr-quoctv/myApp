@@ -1,0 +1,7 @@
+{  "id": "js 4",
+   "tieude":"Hàm trong javascript",
+   "image":"image/js.jpg",
+   "example":"image/jsExample4.png",
+	"content":"Từ bài 1 tới giờ ta đang code từng đoạn code riêng lẻ và khi cần thì code lại, như vậy giả sử ta cần xử lý vấn đề đó trong 1000 trường hợp thì ta phải code lại 1000 lần nên rất tốn thời gian. Chính vì vậy người ta nghĩ ngay đến Hàm, có nghĩa là sẽ gom một số đoạn code vào một khối xử lý và khi cần thì gọi ra dùng.",
+	"loiket":"Qua bài này bạn phải hiểu được cách sử dụng hàm và tạo hàm trong javascript, hiểu được trong javascript không tồn tại khái niệm con trỏ và tham chiếu, hiểu được hai cách sử dụng hàm là hàm có return và hàm không có return. Chúc bạn học tốt!"
+}

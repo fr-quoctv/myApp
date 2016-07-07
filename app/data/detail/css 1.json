@@ -1,0 +1,9 @@
+{  "id": "css 1",
+    "nextpage":"2",
+    "next":"next page 2",
+   "tieude":"CSS là gì và vai trò trên website",
+   "image":"image/css-11.jpg",
+   "example":"image/cssExample1.png",
+	"content":"CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (ví dụ như HTML). Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề, bảng,…thì CSS sẽ giúp chúng ta có thể thêm một chút “phong cách” vào các phần tử HTML đó như đổi màu sắc trang, đổi màu chữ, thay đổi cấu trúc,…rất nhiều.",
+	"loiket":"Mở đầu serie thì mình chỉ muốn giới thiệu sơ lược qua về CSS để bạn biết rõ chúng ta đang học cái gì và nó sẽ được ứng dụng như thế nào. Ở bài sau, chúng ta sẽ tìm hiểu về các cách nhúng CSS vào website như thế nào để nó bắt đầu hoạt động nhé."
+}

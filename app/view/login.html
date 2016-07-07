@@ -1,12 +1,16 @@
 <div ng-controller="loginController"  class="jumbotron ">
-   <div class="login"> 
+  <div class="login">
   <div class="login-triangle"></div>
   
   <h2 class="login-header">Log in</h2>
 
   <form class="login-container">
-    <p><input type="text"  placeholder="username" ng-model="username"></p>
+   <p><span class="label label-info">  Đăng nhập để xem thông tin về anh ấy</span></p>
+    <p><span class="label label-default">user</span>:admin</p>
+    <p><span class="label label-default">pass</span>:123</p>
+    <p><input type="text"  placeholder="username" ng-model="username" ></p>
     <p><input type="password" placeholder="Password" ng-model="password"></p>
-     <button type="submit" ng-disabled="form.$invalid || dataLoading" class="btn btn-danger">Login</button>
+     <button type="submit" ng-disabled="form.$invalid || dataLoading" class="btn btn-danger" ng-click="login(username,password)">Login</button>
+      <button type="reset" class="btn btn-danger" >reset</button>
   </form>
 </div>

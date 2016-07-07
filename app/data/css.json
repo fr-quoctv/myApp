@@ -1,25 +1,33 @@
 [
  {
-    "id": 1,
-    "nameCss":"css1",
-    "lession":"1",
-    "video":"video/css/Intro to HTML and CSS Trailer.mp4"
+    "id": "css 1",
+    "name":"CSS là gì và vai trò trên website",
+    "lesson":"Lesson1",
+    "image":"image/css-11.jpg",
+    "url":"https://www.youtube.com/watch?v=_JT3jPzuqmY&list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4"
   },
    {
-    "id": 2,
-    "nameCss":"css 2",
-    "lession":"2",
-    "video":"video/css/Bootstrap Grid - CSS Grids Series (part 1 - Project Setup).mp4"
+    "id": "css 2",
+    "name":"Nhúng CSS vào website",
+    "lesson":"Lesson2",
+     "image":"image/css-2.jpg",
+    "url":"https://www.youtube.com/watch?v=eGXgrSL8k7I&list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4&index=2"
   },
-     {
-    "id": 3,
-    "nameCss":"css 3",
-    "lession":"3",
-    "video":"video/css/Bootstrap Grid - CSS Grids Series (part 7 - 1st Column Layout cont.).mp4"
+   {
+    "id": "css 3",
+    "name":" Vùng chọn và các kiểu vùng chọn cơ bản",
+    "lesson":"Lesson3",
+     "image":"image/css-3.jpg",
+    "url":"https://www.youtube.com/watch?v=iFOwuLjRIao&list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4&index=3"
+  },
+    
+   {
+    "id": "css 4",
+    "name":"Các đơn vị đo lường cơ bản",
+    "lesson":"Lesson4",
+     "image":"image/css-4.jpg",
+    "url":"https://www.youtube.com/watch?v=5yXL-1nzHDA&list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4&index=4"
   }
-
-  
-
 
 
 ]

@@ -1,0 +1,7 @@
+{  "id": "css 4",
+   "tieude":"Các đơn vị đo lường cơ bản",
+   "image":"image/css-4.jpg",
+   "example":"image/cssExample4.0.png",
+	"content":"Đơn vị tuyệt đối Là các đơn vị vật lý đã được định nghĩa sẵn và đại diện cho các đơn vị đo lường vật lý. Các đơn vị này không bị phụ thuộc và không hề thay đổi bởi bất cứ tác động nào. Ví dụ như đơn vị mét, xen-ti-mét,..là các đơn vị tuyệt đối.  Đơn vị tương đối Là các đơn vị đo lường được sử dụng trong CSS ở mức tương đối, nghĩa là nó có thể sẽ được thay đổi bởi các thành phần khác ví dụ như thay đổi phụ thuộc vào kích thước màn hình.",
+	"loiket":"Bây giờ bạn đã hiểu ý nghĩa của từng đơn vị chưa nào? Thực ra trên tất cả các đơn vị trên thì bạn nên sử dụng đơn vị px cho dễ nếu bạn mới bắt đầu học CSS hoặc làm giao diện website đơn giản, còn các đơn vị khác bạn sẽ có dịp sử dụng khi đã có kinh nghiệm sử dụng CSS để làm các giao diện phức tạp hơn."
+}

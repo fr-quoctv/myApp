@@ -1,0 +1,9 @@
+{  "id": "js 1",
+   "nextpage":"2",
+    "next":"next page 2",
+   "tieude":"Giới thiệu JavaScript",
+   "image":"image/js.jpg",
+   "example":"image/jsExample1.png",
+	"content":"Javascript là một ngôn ngữ lập trình kịch bản dự vào đối tượng phát triển có sẵn hoặc tự định nghĩa ra, javascript được sử dụng rộng rãi trong các ứng dụng Website. Javascript được hỗ trợ hầu như trên tất cả các trình duyệt như Firefox, Chrome, ... thậm chí các trình duyệt trên thiết bị di động cũng phải hỗ trơ nó.Nếu bạn đã biết qua về HTML5 thì bạn thấy có các khái niệm như sessionStore hay localStore, đây là hai đối tượng được tạo nên từ Javascript nên rõ ràng trong HTML5 cũng có sử dụng nó. Với những ứng dụng đó thì bạn thấy javascript không thể chết trong các ứng dụng website được.",
+	"loiket":"Bài này mình muốn giới thiệu đến các bạn khái niệm javascript là gì và đồng thời liệt kê ra những thư viện, Framework được xây dựng từ javascript để các bạn thấy quy mô của nó như thé nào. Chúng ta cũng đã làm một ví dụ nho nhỏ sử dụng hàm getElementById và addEventListener, nếu bạn không hiểu hai hàm này thì cứ từ từ nhé, các bài sau ta sẽ nói về nó nhiều hơn."
+}

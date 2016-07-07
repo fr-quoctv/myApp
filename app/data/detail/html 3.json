@@ -1,0 +1,9 @@
+{  "id": "html 3",
+   "nextpage":"4",
+   "tieude":"Cách hiển thị html lên web",
+   "next":"next page 4",
+   "image":"image/part3Html.jpg",
+   "example":"image/html3.png",
+	"content":"Như ở phần trước thì bạn đã hiểu một tài liệu web bằng HTML hoàn chỉnh sẽ bao gồm 4 phần chính là thẻ khai báo loại tập tin <!DOCTYPE>, thẻ <html>, thẻ khai báo thông tin website <head> và thẻ <body>.Và bên trong cặp thẻ <html> trong tài liệu thì đầu tiên sẽ là cặp thẻ <head>, cặp thẻ này sẽ có nhiệm vụ để bạn khai báo thông tin tài liệu website mà bạn đang tạo ra như tên tài liệu, tên tác giả, mô tả, khai báo CSS, khai báo Javascript,…rất nhiều. Nhưng tạm thời ở đây, các bạn chỉ cần biết qua một số thẻ khai báo thông tin web cơ bản được đặt bên trong thẻ cặp <head> mà hầu như dự án nào bạn cũng sẽ dùng tới.",
+	"loiket":"Như mình đã nói ở đầu bài là các thẻ khai báo thông tin quan trọng cho tài liệu HTML còn khá là nhiều nhưng dù sao các thẻ đó bạn cũng sẽ không sử dụng bây giờ nên mình sẽ đề cập tới ở các serie khác. Nhưng trước mắt bạn nên nắm rõ ý nghĩa các thẻ kia để khi nhìn vào một mã nguồn HTML thì bạn còn hiểu được ý nghĩa của chúng."
+}

@@ -9,31 +9,31 @@ var tempServices = angular.module('tempServices', ['ngResource']);
         requestParam: 'css'
       },
       isArray: true,
+    },
+    save:{
+      method:'POST'
     }
   });
 }]);
  tempServices.factory('html', ['$resource', function ($resource) {
     return $resource('data/:requestParam.json', {}, {
-    	
     query: {
       method: 'GET',
       params: {
         requestParam: 'html'
       },
-      isArray: true,
+      isArray: true,  
     }
   });
 }]);
-
-//  tempServices.factory('AuthenticationService', ['$resource', function ($resource) {
-//   //   return $resource('data/:requestParam.json', {}, {
-    	
-//   //   query: {
-//   //     method: 'GET',
-//   //     params: {
-//   //       requestParam: 'test'
-//   //     },
-//   //     // isArray: true,
-//   //   }
-//   // });
-// }]);
+ tempServices.factory('script', ['$resource', function ($resource) {
+    return $resource('data/:requestParam.json', {}, {
+    query: {
+      method: 'GET',
+      params: {
+        requestParam: 'script'
+      },
+      isArray: true,  
+    }
+  });
+}]);

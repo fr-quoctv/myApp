@@ -1,0 +1,9 @@
+{  "id": "js 2",
+   "nextpage":"4",
+    "next":"next page 4",
+   "tieude":"",
+   "image":"image/js.jpg",
+   "example":"image/jsExample1.png",
+	"content":"Từ bài 1 tới giờ ta đang code từng đoạn code riêng lẻ và khi cần thì code lại, như vậy giả sử ta cần xử lý vấn đề đó trong 1000 trường hợp thì ta phải code lại 1000 lần nên rất tốn thời gian",
+	"loiket":"Qua bài này bạn phải hiểu được cách sử dụng hàm và tạo hàm trong javascript"
+}

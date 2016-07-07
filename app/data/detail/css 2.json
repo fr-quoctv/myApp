@@ -1,0 +1,9 @@
+{  "id": "css 2",
+    "nextpage":"3",
+    "next":"next page 3",
+   "tieude":"Nhúng CSS vào website",
+   "image":"image/css-2.jpg",
+   "example":"image/cssExample2.png",
+	"content":"Trước khi tiến hành viết CSS và để CSS có thể thực thi trên website hoặc tài liệu HTML của bạn thì bạn phải tiến hành nhúng CSS vào website. Nói về nhúng CSS vào website thì chúng ta có hai cách là:Inline Styles – Nhúng trực tiếp vào tài liệu HTML thông qua cặp thẻ <style> </style>.External Styles – Tạo một tập tin .css riêng và nhúng vào tài liệu HTML thông qua cặp thẻ <link>.",
+	"loiket":"Việc nhúng CSS vào website của bạn bây giờ đã hoàn tất rồi, mọi thứ vẫn còn rất đơn giản phải không nào? Cũng đúng thôi vì CSS cũng khá đơn giản mà. Và bắt đầu từ bài sau là chúng ta có thể đi sâu vào việc vận dụng một số thuộc tính CSS để trang trí website rồi."
+}

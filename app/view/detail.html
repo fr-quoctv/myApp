@@ -1,0 +1,66 @@
+
+<link rel="stylesheet" href="css/detail.css">
+<div ng-controller="detailController" class="jumbotron" style="background:" >
+</head>
+<body id="top">
+<div id="profile1" class="instaFade">
+  <div class="mainDetails">
+    <div class="quickFade">
+      <img src="{{detail.image}}" alt="" height="240" width="280" />
+    </div>
+    
+    <div id="name">
+      <h1 class="quickFade delayTwo">{{detail.tieude}}</h1>
+      <h3 class="quickFade delayThree">
+   
+           <button class="btn btn-danger" class="pull-right" ng-click="next(detail.nextpage,detail.id)"> {{detail.next}}</button>
+      </h3>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+  <div id="mainArea" class="quickFade delayFive">
+    <section>
+      <article>
+        <div class="sectionTitle">
+          <h1>Content</h1>
+        </div>
+        
+        <div class="sectionContent">
+          <div class="container"><p> {{detail.content}}</p></div>
+        </div>
+      </article>
+      <div class="clear"></div>
+    </section>
+    
+    
+    <section>
+      <div class="sectionTitle">
+        <h1>example</h1>
+      </div>
+      
+      <div class="sectionContent">
+        <article>
+          <p class="subDetails"></p>
+          <p> <img src="{{detail.example}}" alt="" height="240" width="580" /></p>
+        </article>
+        
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section>
+      <div class="sectionTitle">
+        <h1> conclusion</h1>
+      </div>
+      
+      <div class="sectionContent">
+        <p>{{detail.loiket}}</p>
+      </div>
+      <div class="clear"> 
+      </div>
+    </section>
+       <button class="glyphicon glyphicon-heart" ng-click="post.likes = post.likes+1"> {{post.likes}}</button>
+       <button  class="pull-right"  ng-click="next(detail.nextpage,detail.id)"> {{detail.next}}</button>       
+  </div>
+</div>
+

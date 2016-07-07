@@ -1,0 +1,9 @@
+{  "id": "css 3",
+     "nextpage":"4",
+    "next":"next page 4",
+   "tieude":"Vùng chọn và các kiểu vùng chọn cơ bản",
+   "image":"image/css-3.jpg",
+   "example":"image/cssExample3.png",
+	"content":"Vùng chọn trong CSS đóng vai trò rất quan trọng khi viết CSS, bởi vì nếu bạn sử dụng vùng chọn sai thì điều đó có nghĩa là các quy tắc CSS của bạn sẽ không thể thực thi hoặc thực thi không đúng chỗ. Có thể nói rằng, việc nắm rõ quy tắc sử dụng vùng chọn là kỹ thuật quan trọng đầu tiên khi bạn sử dụng CSS.Vùng chọn trong CSS rất linh hoạt, hầu như bạn có thể chọn bất cứ cái gì từ thẻ <body> đi sâu vào các thẻ bên trong nó. Ở bài này mình sẽ nói qua các kiểu sử dụng vùng chọn cơ bản nhất vì bạn sẽ sử dụng nó thường xuyên nhất, ngoài ra còn có các kiểu sử dụng vùng chọn nâng cao khác mình sẽ nói ở gần cuối serie.",
+	"loiket":"Ở trên là 4 kiểu thiết lập vùng chọn để viết CSS mà bạn sẽ thường xuyên sử dụng nhất, hầu như là dùng liên tục sau này khi viết CSS cho website nên bạn hãy cố gắng luyện tập cách sử dụng nhuần nhuyễn nhất có thể nhé."
+}

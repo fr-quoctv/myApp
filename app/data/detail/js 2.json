@@ -1,0 +1,9 @@
+{  "id": "js 2",
+    "nextpage":"3",
+    "next":"next page 3",
+   "tieude":"Ghi chú trong JavaScript",
+   "image":"image/js.jpg",
+   "example":"image/jsExample2.png",
+	"content":"Khi gặp ghi chú này, nếu trình duyệt không hỗ trợ Javascript (hoặc không bật Javascript), thì trình duyệt sẽ bỏ qua và không thực hiện các lệnh Javascript.Kiểu ghi chú này bắt đầu bằng dấu <!– và kết thúc bằng //–> trong cặp thẻ <script>",
+	"loiket":" Ghi chú lệnh trong Javascript cũng tương tự như trong CSS, đây cũng là cách bạn áp dụng cho các ngôn ngữ lập trình khác như C++, PHP, ASP.Net…"
+}

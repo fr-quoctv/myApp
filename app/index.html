@@ -4,87 +4,32 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>AngularJS Template App</title>
+  <title>AngularJS Final</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/login.css">
   <link rel="icon" type="image/x-icon" href="image/icon.ico">
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers.js"></script>
-  <!-- <script src="js/directives.js"></script> -->
-  <!-- <script src="js/filters.js"></script> -->
   <script src="js/services.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
 </head>
 <body>
-<!-- <div class="container"> -->
-<div class="top">
-  <a class="logo" style="text-decoration:none" href="#/home">W3Schools<span class="com">.com</span></a>
-</div>
-</div>
-  <!-- <div class="container"> -->
-    <nav class="navbar navbar-inverse ">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#/home">Home</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="#/profile">PROFILE</a>
-            </li>
-            <li>
-              <a href="#/html">HTML</a>
-            </li>
-            <li>
-              <a href="#/css">CSS</a>
-            </li>
-             <li>
-              <a href="#/script">JAVASCRIPT</a>
-            </li>
-                 <li>
-              <a href="#/SQL">SQL</a>
-            </li>
-                <li>
-              <a href="#/PHP">PHP</a>
-            </li>
-                <li>
-              <a href="#/BOOTSRAP ">BOOTSTRAP</a>
-            </li>   
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-      <li>
-              <a href="#/login" class="login" ng-model="myCheck">LOGIN</a>
-            </li>
-            <li>
-            
-       <input  class="search" type="search" placeholder="Search" ng-model="query" >
-      
-            </li>
-     </ul>
-        </div>
-      </div>
-    </nav>
+<div ng-include src="'view/header.html'"></div>                     
     <div ng-view></div>
-     <ul class="pagination pull-right">
+    <div> <ul class="pagination pull-right">
     <li><a href="#/home">1</a></li>
     <li><a href="#/profile">2</a></li>
     <li><a href="#html">3</a></li>
     <li><a href="#css">4</a></li>
-    <li><a href="#">5</a></li>
-  </ul>
- <!--  <div class="footer">Design by thuy viet quoc</div>
- </div>
-  -->
+    <li><a href="#script">5</a></li>
+  </ul> 
+  </div> 
 </body>
 </html>

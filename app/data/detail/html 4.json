@@ -1,0 +1,7 @@
+{  "id": "html 4",
+   "tieude":"Thẻ liên kết Html",
+   "image":"image/part4html.jpg",
+   "example":"image/htmlExample4.png",
+	"content":"Như ở phần trước thì bạn đã hiểu một tài liệu web bằng HTML hoàn chỉnh sẽ bao gồm 4 phần chính là thẻ khai báo loại tập tin <!DOCTYPE>, thẻ <html>, thẻ khai báo thông tin website <head> và thẻ <body>.Và bên trong cặp thẻ <html> trong tài liệu thì đầu tiên sẽ là cặp thẻ <head>, cặp thẻ này sẽ có nhiệm vụ để bạn khai báo thông tin tài liệu website mà bạn đang tạo ra như tên tài liệu, tên tác giả, mô tả, khai báo CSS, khai báo Javascript,…rất nhiều. Nhưng tạm thời ở đây, các bạn chỉ cần biết qua một số thẻ khai báo thông tin web cơ bản được đặt bên trong thẻ cặp <head> mà hầu như dự án nào bạn cũng sẽ dùng tới",
+	"loiket":"Thẻ a được dùng để đi backlink khi các bạn làm việc với SEO để kéo traffic về website. Tuy nhiên nếu áp dụng giá trị thuộc tính của title mà không đúng cách thì sẽ gây bất lợi cho SEO."
+}

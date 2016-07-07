@@ -1,0 +1,11 @@
+{  "id": "html 1",
+    "nextpage":"2",
+    "next":"next page 2",
+   "tieude":"Html là gì?",
+   
+   "image":"image/part1Html.jpg",
+   "example":"image/htmlExample1.png",
+	"content":"HTML là chữ viết tắt của cụm từ HyperText Markup Language((Xem thêm tại http://vi.wikipedia.org/wiki/HTML)) (dịch là Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo một trang web, trên một website có thể sẽ chứa nhiều trang và mỗi trang được quy ra là một tài liệu HTML (thi thoảng mình sẽ ghi là một tập tin HTML). Cha đẻ của HTML là Tim Berners-Lee, cũng là người khai sinh ra World Wide Web và chủ tịch của World Wide Web Consortium (W3C – tổ chức thiết lập ra các chuẩn trên môi trường Internet).Một tài liệu HTML được hình thành bởi các phần tử HTML (HTML Elements) được quy định bằng các cặp thẻ (tag), các cặp thẻ này được bao bọc bởi một dấu ngoặc ngọn (ví dụ <html>) và thường là sẽ được khai báo thành một cặp, bao gồm thẻ mở và thẻ đóng (ví <strong> dụ </strong> và ). Các văn bản muốn được đánh dấu bằng HTML sẽ được khai báo bên trong cặp thẻ (ví dụ <strong>Đây là chữ in đậm</strong>). Nhưng một số thẻ đặc biệt lại không có thẻ đóng và dữ liệu được khai báo sẽ nằm trong các thuộc tính (ví dụ như thẻ <img>).",
+	"loiket":"Ở trên mình đã giải thích khá chi tiết và cặn kẽ về HTML và vai trò của nó trên website là như thế nào. Thoạt nhìn có thể bạn sẽ tưởng các thông tin này chỉ mang tính tham khảo nhưng đó lại là các thông tin cực kỳ quan trọng, vì bạn đã làm web thì phải hiểu rõ về nó."
+
+}

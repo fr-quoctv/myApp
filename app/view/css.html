@@ -1,21 +1,24 @@
-<div ng-controller="cssController" class="jumbotron">
-<!--  <div class="row">
-<div class="col-md-10"> -->
+<div ng-controller="cssController" class="jumbotron" >
   <div class="row">
-    <div class="col-md-14" ng-repeat="session in css | filter:query">
+  <div class=".col-xs-12 .col-sm-6 .col-md-8">
+    <div class="search" class="pull-right"><input type="text" placeholder="Search..." required  ng-model="query"></div> 
+  </div>
+<div class="row">
+    <div class="col-md-6" ng-repeat="session in css | filter:query">
       <div class="thumbnail">
-         <div class="caption" style="text-align:center"> 
-         	<video width="700" height="600" controls>
-              <source src="{{session.video}}" type="video/mp4">
-          </video> <br>   
-          <a href="#">{{session.nameCss}}</a>
-          <p>
-            <span class="label label-default">{{session.lession}}</span> 
-          </p>
+         <div class="caption" style="text-align:center">
+         <p><span class="label label-default">{{session.lesson}}</span>:{{session.name}}</p>
+         <a ng-href="{{session.url}}" target="url">
+          <img ng-src="{{session.image}}" height="640" width="480" >
+        </a> 
+        <p><a ng-href="{{session.url}}" target="url"><img ng-src="image/watch-video.png" height="100" width="120" ></a></p>
+            <a href="#/detail/{{session.id}}"><img ng-src="image/readmore.gif" height="100" width="120" ></a>
+            <p class="glyphicon glyphicon-heart"> {{post.likes}}
+            </p>
         </div>
       </div>
     </div>
   </div>
 </div> 
 </div>
-</div>	
+</div>

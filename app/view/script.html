@@ -1,0 +1,22 @@
+<div ng-controller="scriptController" class="jumbotron">
+  <div class="row">
+  <div class=".col-xs-12 .col-sm-6 .col-md-8">
+    <div class="search" class="pull-right"><input type="text" placeholder="Search..." required  ng-model="query"></div> 
+  </div>
+  <div class="row">
+    <div class="col-md-6" ng-repeat="session in script | filter:query">
+      <div class="thumbnail">
+         <div class="caption" style="text-align:center">
+         <p> <span class="label label-default">{{session.lesson}}</span> :{{session.name}}</p>
+         <a ng-href="{{session.url}}" target="url">
+          <img ng-src="{{session.image}}" height="640" width="480" >
+        </a> 
+        <p><a ng-href="{{session.url}}" target="url">watch video</a></p>
+            <a href="#/detail/{{session.id}}">Readmore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+</div>
